@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dhaker.demo.wearables.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:background="#00ffffff"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:src="@android:drawable/ic_menu_revert"/>
+    <LinearLayout
+        android:padding="0dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/connectto"
+            android:gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:lineSpacingExtra="-4sp"
+            android:text="Connect to"
+            android:textColor="#ffFFFF"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/name"
+            android:gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:lineSpacingExtra="-4sp"
+            android:text="Menu here"
+            android:textColor="#ffFFFF"
+            android:textSize="14sp"/>
+        </LinearLayout>
+
+</com.dhaker.demo.wearables.WearableListItemLayout>

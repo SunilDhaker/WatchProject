@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log out</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="pin_password_verify">Repeat 4 digit pin</string>
+    <string name="pin_password">Enter 4 digit pin</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Pin is too short</string>
+    <string name="error_mismatch_password">Pins do not match</string>
+    <string name="error_incorrect_password">This pin is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_main">PingHeart</string>
+    <string name="heart_rate">00.0</string>
+    <string name="rememberMe">Remember me</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="action_startstop_watch">Start/Stop Watch</string>
+    <string name="action_startstop_service">Start/Stop Service</string>
+
+</resources>
